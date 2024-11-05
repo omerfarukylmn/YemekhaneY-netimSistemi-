@@ -34,7 +34,7 @@ Sistem, aşağıdaki işlevleri desteklemelidir:
 
 •	- Yemek seçiminde kullanılan malzemelerin stok miktarlarını azaltmalıdır.
 
-4. Teknik Gereksinimler
+3. Teknik Gereksinimler
    
 •	- Sistem veri tabanında aşağıdaki varlıkları barındırmalıdır: Öğretim Üyesi, Öğrenci, Personel, Kart, Menü, Yemek, Alerjen, Malzeme, İçecek ve Tatlı.
 
@@ -46,7 +46,7 @@ Sistem, aşağıdaki işlevleri desteklemelidir:
 
 •	- Kullanıcı oturumları güvenli bir şekilde yönetilmelidir.
 
-6. Fonksiyonel Olmayan Gereksinimler
+4. Fonksiyonel Olmayan Gereksinimler
    
 •	- Sistem, kullanıcı dostu ve erişilebilir bir arayüz sunmalıdır.
 
@@ -56,7 +56,8 @@ Sistem, aşağıdaki işlevleri desteklemelidir:
 
 •	- Sistem, veri gizliliğini sağlamak için şifreleme mekanizmaları kullanmalıdır.
 
-8. Kullanıcı Senaryoları
+
+5.Kullanıcı Senaryoları
    
 5.1 Kullanıcı Senaryosu 1: Yemek Seçimi
 
@@ -78,7 +79,22 @@ Sistem, aşağıdaki işlevleri desteklemelidir:
 
 	Yeni bakiye miktarı kart bilgilerine eklenir.
 
+Varlık-İlişki Tablosu:
+
+Varlık 1|	Varlık 2|	İlişki|
+|--------|----------|-----------|
+|Kişi|	Yemekhane Kartı|	Sahiptir (1-1)|
+|Yemek|	Malzeme|	Kullanır (N-M)|
+|Yemek|	Alerjen|	Sebep (N-1)|
+|Menü|	Yemek	|İçerir (1-N)|
+|Menü	|İçecek|	İçerir (1-N)|
+|Menü|	Tatlı|	İçerir (1-N)|
+|Öğrenci/Öğretim Üyesi/Personel|	Yemekhane Kartı|	Sahip (1-1)|
+|Yemekhane Kartı|	Yükleme|	Yükleme Tarihi ve Miktarı|
+
 ![VERİ TABANI ER DİYAGRAMI (1)](https://github.com/user-attachments/assets/555ee08d-beee-4c1c-802e-bfc30d6110a6)
+
+
 
 
 
