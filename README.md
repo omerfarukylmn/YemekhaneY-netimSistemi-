@@ -3,9 +3,9 @@ Proje Sahipleri:
 AZRA ŞAHİN
 AYŞE CEREN TUNCER
 ÖMER FARUK YELMAN
-1. Proje Genel Tanımı
+ 1. Proje Genel Tanımı
 Bu proje, üniversite yemekhane sisteminin daha verimli yönetilmesini sağlamak amacıyla geliştirilmiştir. Sistem, üniversite mensuplarının (öğrenciler, öğretim üyeleri, personel) yemek ihtiyaçlarını düzenli bir şekilde karşılayabilmeleri için çeşitli fonksiyonlar sunar. Kullanıcılar, yemek menülerine erişebilir, yemek seçimlerini yapabilir, kartlarına bakiye yükleyebilir ve alerjen bilgilerini sistemde kontrol edebilir.
-2. Fonksiyonel Gereksinimler
+ 2. Fonksiyonel Gereksinimler
    
    2.1 Kullanıcı Gereksinimleri
 Sistem, aşağıdaki kullanıcı gereksinimlerini karşılamalıdır:
@@ -34,7 +34,7 @@ Sistem, aşağıdaki işlevleri desteklemelidir:
 
 •	- Yemek seçiminde kullanılan malzemelerin stok miktarlarını azaltmalıdır.
 
-3. Teknik Gereksinimler
+  3. Teknik Gereksinimler
    
 •	- Sistem veri tabanında aşağıdaki varlıkları barındırmalıdır: Öğretim Üyesi, Öğrenci, Personel, Kart, Menü, Yemek, Alerjen, Malzeme, İçecek ve Tatlı.
 
@@ -46,7 +46,7 @@ Sistem, aşağıdaki işlevleri desteklemelidir:
 
 •	- Kullanıcı oturumları güvenli bir şekilde yönetilmelidir.
 
-4. Fonksiyonel Olmayan Gereksinimler
+   4. Fonksiyonel Olmayan Gereksinimler
    
 •	- Sistem, kullanıcı dostu ve erişilebilir bir arayüz sunmalıdır.
 
@@ -57,7 +57,7 @@ Sistem, aşağıdaki işlevleri desteklemelidir:
 •	- Sistem, veri gizliliğini sağlamak için şifreleme mekanizmaları kullanmalıdır.
 
 
-5.Kullanıcı Senaryoları
+   5.Kullanıcı Senaryoları
    
 5.1 Kullanıcı Senaryosu 1: Yemek Seçimi
 
