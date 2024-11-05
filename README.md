@@ -89,7 +89,7 @@ Varlık 1|	Varlık 2|	İlişki|
 |--------|----------|-----------|
 |Kişi|	Yemekhane Kartı|	Sahiptir (1-1)|
 |Yemek|	Malzeme|	Kullanır (N-M)|
-|Yemek|	Alerjen|	Sebep (N-1)|
+|Malzeme|	Alerjen|	Sebep (N-1)|
 |Menü|	Yemek	|İçerir (1-N)|
 |Menü	|İçecek|	İçerir (1-N)|
 |Menü|	Tatlı|	İçerir (1-N)|
