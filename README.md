@@ -98,7 +98,8 @@ Varlık 1|	Varlık 2|	İlişki|
 
 
 
-![VERİ TABANI ER DİYAGRAMI (2)](https://github.com/user-attachments/assets/b86674b1-bf81-40c2-9315-894db56fddb5)
+![VERİ TABANI ER DİYAGRAMI (3)](https://github.com/user-attachments/assets/9fb43a8b-c218-463d-9529-21c3a71fc97a)
+
 
 
 
