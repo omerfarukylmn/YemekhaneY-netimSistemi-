@@ -96,8 +96,9 @@ Varlık 1|	Varlık 2|	İlişki|
 |Öğrenci/Öğretim Üyesi/Personel|	Yemekhane Kartı|	Sahip (1-1)|
 |Yemekhane Kartı|	Yükleme|	Yükleme Tarihi ve Miktarı|
 
-![VERİ TABANI ER DİYAGRAMI (1)](https://github.com/user-attachments/assets/555ee08d-beee-4c1c-802e-bfc30d6110a6)
 
+
+![VERİ TABANI ER DİYAGRAMI (2)](https://github.com/user-attachments/assets/bd2c14b0-5f29-485f-ac82-74dc24bc6d78)
 
 
 
