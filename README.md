@@ -1,8 +1,12 @@
 # YemekhaneYönetimSistemi-
 Proje Sahipleri:
+
 AZRA ŞAHİN
+
 AYŞE CEREN TUNCER
+
 ÖMER FARUK YELMAN
+
  1. Proje Genel Tanımı
 Bu proje, üniversite yemekhane sisteminin daha verimli yönetilmesini sağlamak amacıyla geliştirilmiştir. Sistem, üniversite mensuplarının (öğrenciler, öğretim üyeleri, personel) yemek ihtiyaçlarını düzenli bir şekilde karşılayabilmeleri için çeşitli fonksiyonlar sunar. Kullanıcılar, yemek menülerine erişebilir, yemek seçimlerini yapabilir, kartlarına bakiye yükleyebilir ve alerjen bilgilerini sistemde kontrol edebilir.
  2. Fonksiyonel Gereksinimler
