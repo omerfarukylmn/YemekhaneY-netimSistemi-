@@ -7,14 +7,21 @@ AYŞE CEREN TUNCER
 Bu proje, üniversite yemekhane sisteminin daha verimli yönetilmesini sağlamak amacıyla geliştirilmiştir. Sistem, üniversite mensuplarının (öğrenciler, öğretim üyeleri, personel) yemek ihtiyaçlarını düzenli bir şekilde karşılayabilmeleri için çeşitli fonksiyonlar sunar. Kullanıcılar, yemek menülerine erişebilir, yemek seçimlerini yapabilir, kartlarına bakiye yükleyebilir ve alerjen bilgilerini sistemde kontrol edebilir.
 2. Fonksiyonel Gereksinimler
    
-2.1 Kullanıcı Gereksinimleri
+   2.1 Kullanıcı Gereksinimleri
 Sistem, aşağıdaki kullanıcı gereksinimlerini karşılamalıdır:
+
 •	- Kullanıcı sisteme giriş yapabilmelidir (Öğrenci, Öğretim Üyesi veya Personel).
+
 •	- Kullanıcılar kartlarına bakiye yükleyebilmelidir.
+
 •	- Kullanıcılar, günlük menüde yer alan yemekleri görebilmelidir.
+
 •	- Kullanıcılar, alerjen bilgilerine göre yemek seçiminde bilgilendirilmelidir.
+
 •	- Kullanıcılar yemek seçtiklerinde, kart bakiyesinden yemek ücreti düşülmelidir.
-2.2 Sistem Gereksinimleri
+
+
+   2.2 Sistem Gereksinimleri
 Sistem, aşağıdaki işlevleri desteklemelidir:
 •	- Kullanıcı kayıt ve giriş işlemlerini yönetebilmelidir.
 •	- Kullanıcıların kart bilgilerini (bakiye, yükleme miktarı ve tarih) yönetebilmelidir.
