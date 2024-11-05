@@ -23,33 +23,61 @@ Sistem, aşağıdaki kullanıcı gereksinimlerini karşılamalıdır:
 
    2.2 Sistem Gereksinimleri
 Sistem, aşağıdaki işlevleri desteklemelidir:
+
 •	- Kullanıcı kayıt ve giriş işlemlerini yönetebilmelidir.
+
 •	- Kullanıcıların kart bilgilerini (bakiye, yükleme miktarı ve tarih) yönetebilmelidir.
+
 •	- Yemek menülerini güncelleyebilmeli ve alerjen içeren öğeleri kullanıcıya bildirebilmelidir.
+
 •	- Stok durumunu kontrol etmeli ve stokta olmayan malzemeler için uyarı vermelidir.
+
 •	- Yemek seçiminde kullanılan malzemelerin stok miktarlarını azaltmalıdır.
+
 4. Teknik Gereksinimler
+   
 •	- Sistem veri tabanında aşağıdaki varlıkları barındırmalıdır: Öğretim Üyesi, Öğrenci, Personel, Kart, Menü, Yemek, Alerjen, Malzeme, İçecek ve Tatlı.
+
 •	- Veritabanı, kullanıcı bilgilerini ve alerjen verilerini güvenli bir şekilde saklamalıdır.
+
 •	- Her öğenin (yemek, içecek vb.) kalori bilgisi ve içeriği sistemde tutulmalıdır.
+
 •	- Yemek seçiminde alerjen içeriyorsa kullanıcıya uyarı vermelidir.
+
 •	- Kullanıcı oturumları güvenli bir şekilde yönetilmelidir.
-5. Fonksiyonel Olmayan Gereksinimler
+
+6. Fonksiyonel Olmayan Gereksinimler
+   
 •	- Sistem, kullanıcı dostu ve erişilebilir bir arayüz sunmalıdır.
+
 •	- Sistem, güvenli bir giriş ve işlem doğrulama mekanizması sağlamalıdır.
+
 •	- Veritabanı, yüksek performanslı sorgular için optimize edilmelidir.
+
 •	- Sistem, veri gizliliğini sağlamak için şifreleme mekanizmaları kullanmalıdır.
-6. Kullanıcı Senaryoları
+
+8. Kullanıcı Senaryoları
+   
 5.1 Kullanıcı Senaryosu 1: Yemek Seçimi
+
 	Kullanıcı sisteme giriş yapar.
+
 	 Günlük yemek menüsü görüntülenir.
+
 	Kullanıcı bir yemek seçer.
+
 	Eğer yemek, kullanıcının alerjen bilgilerine göre uygunsa işlem onaylanır ve karttan bakiye düşülür.
+
 	Yemek malzemeleri stok miktarlarından düşülür.
+
 5.2 Kullanıcı Senaryosu 2: Bakiye Yükleme
+
 	Kullanıcı, kartına bakiye yüklemek için ilgili menüye gider.
+
 	Yüklemek istediği miktarı belirler ve onaylar.
+
 	Yeni bakiye miktarı kart bilgilerine eklenir.
+
 ![VERİ TABANI ER DİYAGRAMI (1)](https://github.com/user-attachments/assets/555ee08d-beee-4c1c-802e-bfc30d6110a6)
 
 
